@@ -1,5 +1,13 @@
 http:
  listner:
   host: "localhost"
-  port: "8081"
-  path: "/routes"
+  port: "8082"
+  path: "/travelontipcall/{serviceType}"
+
+db:    
+ salesforce: 
+  username: "kumar.abhishek999@yash.com"
+  password: "Abhi@999"
+  url: "https://login.salesforce.com/services/Soap/u/56"
+  token: "oLITRa9YMKSWJiSMSTdTlmZlk"
+  
